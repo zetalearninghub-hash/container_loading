@@ -1,7 +1,7 @@
 name: container_loading
 description: "Loading container shows shimmer or progress indicator until content loads."
 version: 0.0.1
-homepage:
+homepage: https://github.com/zetalearninghub-hash/container_loading.git
 
 environment:
   sdk: ^3.9.2
