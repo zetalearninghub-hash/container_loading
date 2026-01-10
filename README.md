@@ -1,34 +1,37 @@
-## container_loading
-Loading container shows shimmer or progress indicator until content loads.
+# container_loading
+
+Loading container shows shimmer or progress indicator until content loads..
+
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+ - Container loader
+ - delay and loading Container
+ - Can change container design
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+To use this package, add container_loading as a dependency in your pubspec.yaml file.
 
 ## Usage
 
+Minimal example:
+
 ```dart
-ContainerLoading()
+    ContainerLoading()
 ```
 
+Custom settings:
+
+```dart
   ContainerLoading(
               loaderColor: Colors.red,
               backgroundColor: Colors.yellow,
-              // height: 300,
-              // width: 500,
-              //decoration: BoxDecoration(color: Colors.blue),
+              height: 300,
+              width: 500,
+              decoration: BoxDecoration(color: Colors.blue),
               child: Text("hai"),
             ),
+```
 
-
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+## See also
